@@ -3,6 +3,7 @@
     description: ''
     entry: prettier --write --list-different --ignore-unknown
     language: node
+    stages: [commit, merge-commit, push, manual]
     'types': [text]
     args: []
     require_serial: false
